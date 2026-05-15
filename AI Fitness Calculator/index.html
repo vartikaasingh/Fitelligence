@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Fitness Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <img src="dumbbell.png" width="150">
+    <h1>AI Fitness Calculator</h1>
+
+    <input type="number" id="weight" placeholder="Weight (kg)">
+    <input type="number" id="height" placeholder="Height (cm)">
+    
+    <select id="goal">
+      <option value="loss">Weight Loss</option>
+      <option value="maintain">Maintain</option>
+      <option value="gain">Muscle Gain</option>
+    </select>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div id="result"></div>
+    <div id="calories"></div>
+    <div id="extras"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

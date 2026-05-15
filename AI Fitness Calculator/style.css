@@ -1,0 +1,67 @@
+body{
+  margin:0;
+  font-family: Arial;
+  background: url("gym\ photo.jpg");
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container{
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+  padding:30px;
+  border-radius:20px;
+  width:320px;
+  text-align:center;
+  box-shadow:0 0 20px rgba(0,0,0,0.3);
+  color:white;
+}
+
+h1{
+  margin-bottom:20px;
+}
+
+input,select{
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border-radius:10px;
+  border:1px solid #ccc;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:10px;
+  background:#2a5298;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#1e3c72;
+}
+
+#result{
+  margin-top:20px;
+  font-size:18px;
+}
+
+#calories{
+  margin-top:15px;
+  font-size:20px;
+  font-weight:bold;
+  color:#ffd700;
+}
+
+#extras{
+  margin-top:20px;
+  font-size:18px;
+  color:white;
+}
